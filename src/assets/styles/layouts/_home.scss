@@ -55,3 +55,17 @@ body {
   font-size: 0.75rem;
   text-align: center;
 }
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  
+  nav{
+    display: inline;
+    list-style-type: none;
+  }
+
+}
