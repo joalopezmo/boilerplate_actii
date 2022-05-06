@@ -9,19 +9,48 @@
   </head>
   <body>
     <include src="./views/header.html"></include>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p class="text-decoration-line-through"> -->bootstrap funciona -->
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
+    <main class="grid">
+      <div class="title title--primary">
+        <span class="text-light">An evening of alternative</span>
+        <span class="text-bold">Rock</span>
+      </div>
+  
+      <div class="cover">
+          <img
+              class="img-fluid"
+               src="./assets/images/Incubus-mejores-canciones-770x513.jpg"
+               alt="Photo by Vino Li on Unsplash"
+               />
+        </a>
+      </div>
+  
+      <ul class="info">
+        <li>
+          <span class="text-bold">Local & International Bands</span>
+          <span class="text-light">Rock american bands</span>
+        </li>
+        <li>
+          <span class="text-bold">Palacio Euskalduna</span>
+          <span class="text-light">Sabino Arana Kalea, Bilbao</span>
+        </li>
+        <li>
+          <span class="text-bold">21<sup>st</sup> March</span>
+          <span class="text-light">Doors open at <strong>7:00 PM</strong></span>
+          <span class="text-light"
+                >Performance starts at <strong>7:30 PM</strong></span
+            >
+        </li>
+        <li>
+          <span class="text-light">Tickets by Donation</span>
+        </li>
+      </ul>
+  
+      <div class="title title--secondary">
+        <span class="text-light">An evening of alternative</span>
+        <span class="text-bold">Rock</span>
+      </div>
+    </main>
+    
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
